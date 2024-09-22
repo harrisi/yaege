@@ -10,6 +10,7 @@ defmodule Yaege.Application do
     children = [
       # Starts a worker by calling: Yaege.Worker.start_link(arg)
       # {Yaege.Worker, arg}
+      Yaege.Window,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
